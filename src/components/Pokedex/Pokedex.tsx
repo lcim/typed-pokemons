@@ -19,7 +19,7 @@ const Pokedex = ({
   selectedPokemon,
   onSelectedPokemonClick,
   onInputChange,
-  clearSearchbox,
+  // clearSearchbox,
   searchField,
 }: PokedexProps) => {
   return (
@@ -27,7 +27,7 @@ const Pokedex = ({
       <div className="pokedex__list-container">
         <Searchbox
           onInputChange={onInputChange}
-          clearSearchbox={clearSearchbox}
+          // clearSearchbox={clearSearchbox}
           searchField={searchField}
         />
         <PokeList

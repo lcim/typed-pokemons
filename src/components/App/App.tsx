@@ -91,14 +91,15 @@ export default class App extends Component<any, AppState> {
     // this.setState({selectedPokemon: selectedPokemon})
   };
 
-  clearSearchbox = () => {
-    const patchedPokemons: PokemonSchema[] = this.patchPokemonData(pokemonData);
-    this.setState({
-      searchField: "",
-      searchedPokemons: patchedPokemons,
-      allPokemons: patchedPokemons,
-    })
-  }
+  // The input element provided fro this so no need for this. It has been also been commented out in the code.
+  // clearSearchbox = () => {
+  //   const patchedPokemons: PokemonSchema[] = this.patchPokemonData(pokemonData);
+  //   this.setState({
+  //     searchField: "",
+  //     searchedPokemons: patchedPokemons,
+  //     allPokemons: patchedPokemons,
+  //   })
+  // }
 
   render() {
     return (

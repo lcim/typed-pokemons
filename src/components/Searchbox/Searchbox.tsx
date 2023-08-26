@@ -3,11 +3,11 @@ import "./Searchbox.css";
 
 interface SearchboxProps {
   onInputChange: (input: string) => void;
-  clearSearchbox: () => void;
+  // clearSearchbox: () => void;
   searchField: string;
 }
 
-const Searchbox = ({ onInputChange,  searchField }: SearchboxProps) => {
+const Searchbox = ({ onInputChange, searchField }: SearchboxProps) => {
   return (
     <div className="searchbox__container">
       <input
