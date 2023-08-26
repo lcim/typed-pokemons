@@ -110,7 +110,7 @@ export default class App extends Component<any, AppState> {
           selectedPokemon={this.state.selectedPokemon}
           onInputChange={this.handleInputChange}
           onSelectedPokemonClick={this.handleClick}
-          clearSearchbox={this.clearSearchbox}
+          // clearSearchbox={this.clearSearchbox}
           searchField={this.state.searchField}
         />
       </div>
