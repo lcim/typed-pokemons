@@ -1,0 +1,23 @@
+body{
+  background-color: #333030;
+  color: #DCDCDC;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app{
+  text-align: center;
+}
+
+.title{
+  font-family: "Press Start 2P", cursive;
+  font-size: 2.2rem;
+  color: #FF9A8A;
+  margin-inline: auto;
+}
+
+@media screen and (min-width:600px) {
+  .title{
+    font-size: 3.5rem;
+  }
+}
