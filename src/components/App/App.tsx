@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import { pokemonData } from "../../data/PokemonData";
 import {
   PokemonSchema,
@@ -15,7 +15,7 @@ interface AppState {
   selectedPokemon: PokemonSchema | undefined;
 }
 
-export default class App extends Component<never, AppState> {
+export default class App extends Component<any, AppState> {
   state = {
     searchField: "",
     allPokemons: [],

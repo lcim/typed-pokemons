@@ -1,6 +1,5 @@
 import { PokemonSchema } from "../../types/PokemonSchema";
 import "./PokedSearchResult.css";
-import React from "react";
 
 interface PokedSearchResultProps {
   selectedPokemon: PokemonSchema | undefined;

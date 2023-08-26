@@ -1,5 +1,4 @@
 import "./PokeCard.css";
-import React from "react";
 
 interface PokecardProps {
   spriteUrl?: string;
