@@ -7,7 +7,7 @@ interface SearchboxProps {
   searchField: string;
 }
 
-const Searchbox = ({ onInputChange, clearSearchbox, searchField }: SearchboxProps) => {
+const Searchbox = ({ onInputChange,  searchField }: SearchboxProps) => {
   return (
     <div className="searchbox__container">
       <input
