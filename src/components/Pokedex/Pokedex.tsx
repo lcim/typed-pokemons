@@ -24,6 +24,11 @@ const Pokedex = ({
 }: PokedexProps) => {
   return (
     <div className="pokedex__container">
+      <div className="pokedex__result-container">
+        <div>
+          <PokedSearchResult selectedPokemon={selectedPokemon} />
+        </div>
+      </div>
       <div className="pokedex__list-container">
         <Searchbox
           onInputChange={onInputChange}
@@ -34,11 +39,6 @@ const Pokedex = ({
           searchedPokemons={searchedPokemons}
           onSelectedPokemonClick={onSelectedPokemonClick}
         />
-      </div>
-      <div className="pokedex__result-container">
-        <div>
-          <PokedSearchResult selectedPokemon={selectedPokemon} />
-        </div>
       </div>
     </div>
   );
