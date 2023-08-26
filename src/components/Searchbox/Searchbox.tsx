@@ -20,7 +20,7 @@ const Searchbox = ({ onInputChange, clearSearchbox, searchField }: SearchboxProp
         type="search"
         id="searchbox"
       />
-      {searchField !== "" && (<p onClick={() => clearSearchbox()} className="clear__search">X</p>)}
+      {/* {searchField !== "" && (<p onClick={() => clearSearchbox()} className="clear__search">X</p>)} */}
     </div>
   );
 };
