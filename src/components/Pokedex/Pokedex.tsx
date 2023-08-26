@@ -10,7 +10,7 @@ interface PokedexProps {
   selectedPokemon: PokemonSchema | undefined;
   onInputChange: (input: string) => void;
   onSelectedPokemonClick: (pokemonName: string) => void;
-  clearSearchbox: () => void;
+  // clearSearchbox: () => void;
   searchField: string;
 }
 
